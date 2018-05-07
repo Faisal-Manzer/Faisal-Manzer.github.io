@@ -364,6 +364,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="gallery/index.html" class="external">Images</a></li>
       </ul>
     </div>
   </header>
@@ -504,7 +505,7 @@
   <script>
     window.$ = document.querySelector.bind(document);
     window.$$ = document.querySelectorAll.bind(document);
-    var tags = $$("header a");
+    var tags = $$("header a:not(.external)");
     for (var i = 0; i < tags.length; i++) {
       tags[i].addEventListener("click", function(e) {
         e.preventDefault();
