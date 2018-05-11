@@ -1,0 +1,45 @@
+- name: Compeated
+  data:
+    - name: FxIT
+      link:
+        title: Github Repo - FxIT
+        link: https://github.com/Faisal-Manzer/FxIT
+      github: FxIT
+      desc: This is an iOS app which changes voice speed, pitch etc. I loved playing with it
+
+    - name: WhatsApp Spammer
+      link:
+        title: GitHub Repo - whatsapp-spam
+        data: https://github.com/Faisal-Manzer/whatsapp-spam
+      github: whatsapp-spam
+      desc: A Python based code just made for fun, to wish birthday to my friend Tamsil.
+
+    - name: JMI Robotics
+      link:
+        title: Jamia's Robo Club Official site
+        data: http://jmirobotics.co.in
+      github: jmirobotics.co.in
+      desc: Official website for Jamia's Robocon team
+
+    - name: iWAR
+      link:
+        title: Play iWAR - it is fun
+        data: https://faisal-manzer.in/iWar/
+      github: iWar
+      desc: A game with JavaScript. Created for school project when was amature in JavaScript.
+
+- name: in Progress
+  data:
+    - name: LearnVidFM
+      link:
+        title: Come and learn
+        data: https://learn.faisal-manzer.in
+      github: LearnVidFM
+      desc: This is tutorial site. I aim to teach some of the topics to beginners for a kick start. I realy love W3Schools how it teaches all the things. But it is confined to certain things. I aim to provide many articles and tutorial. This is open for contribute.
+
+    - name: JamiaWorld.in
+      link:
+        title: Jamiaworld's Official Site
+        data: http://jamiaworld.in
+      github: JamiaWorld.in
+      desc: JamiaWorld is a small initiative to connect the gap between students and Jamia Millia Islamia. I am creating a whole new site with PWA functionality. I tested the code did which produced a load time of 3sec which is very fast, and was having a PageSpeed Insights score of 78 I guess which is not very much good but was fairly good.

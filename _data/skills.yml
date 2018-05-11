@@ -1,0 +1,50 @@
+- name: Language Skills
+  data:
+    - name: Majors
+      data:
+      - name: PHP
+        data: Good in backend development
+
+      - name: JavaScript
+        data: I love playing with it
+
+      - name: HTML5
+        data: The first step should always be good
+        
+    - name: Minors
+      data:
+        - name: Python3
+          data: Currently in learning phase
+
+        - name: C++
+          data: Learned as school subject
+
+        - name: MySQL
+          data: can write simple queries necessary for backend
+
+- name: Tools
+  data:
+    - name: Libraries
+      data:
+        - name: jQuery
+          data: well with the write less do more library
+
+        - name: Materialize CSS
+          data: Favorite frontend library
+
+        - name: Bootstrap
+          data: I am not too found of it, but i can write
+
+        - name: RegEX
+          data: Familiar with the pattern selection tool
+
+    - name: Optimizations and Technology
+      data:
+        - name: Website Performance Optimization
+          data: Optimized site upto 3sec of load time and 93 PageSpeed Score
+
+        - name: Search Engine Optimization
+          data: Worked very much in SEOs. Got Score of 100 in Lighthouse Audit
+
+        - name: Progressive Web App
+          data: I will try to make web application

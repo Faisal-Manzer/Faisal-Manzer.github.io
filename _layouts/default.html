@@ -1,0 +1,13 @@
+{% include _head.html %}
+<body>
+    {% include _header.html %}
+    <main class="black-3">
+        {% include _socialbar.html %}
+        <div class="cont">
+            {% include _intro.html %}
+            {{content}}
+        </div>
+    </main>
+    {% include _footer.html %}
+    {% include _smoothscroll.html %}
+</body>
