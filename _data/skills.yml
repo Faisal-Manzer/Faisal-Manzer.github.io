@@ -10,11 +10,17 @@
 
       - name: HTML5
         data: The first step should always be good
-        
+
+      - name: CSS3
+        data: I love to write CSS from zero
+
     - name: Minors
       data:
         - name: Python3
           data: Currently in learning phase
+
+        - name: Swift
+          data: Made 3 iOS apps till now with swift.
 
         - name: C++
           data: Learned as school subject
@@ -22,8 +28,25 @@
         - name: MySQL
           data: can write simple queries necessary for backend
 
+        - name: UI/UX
+          data: Good in Mobile UI/UX
+
 - name: Tools
   data:
+    - name: Optimizations and Technology
+      data:
+        - name: git
+          data: fairly obvious one. I use version control for all projects
+
+        - name: Website Performance Optimization
+          data: Optimized site upto 3sec of load time and 100 PageSpeed Insights Score.
+
+        - name: Search Engine Optimization
+          data: Worked on SEOs. And Learning more to Rank#1 on Google. ( This site is example of SEO, it is the first result when you google my name. )
+
+        - name: Jeykll
+          data: Familiar with the static site generator. Made 2 sites with it. Hosted on github
+
     - name: Libraries
       data:
         - name: jQuery
@@ -37,14 +60,3 @@
 
         - name: RegEX
           data: Familiar with the pattern selection tool
-
-    - name: Optimizations and Technology
-      data:
-        - name: Website Performance Optimization
-          data: Optimized site upto 3sec of load time and 93 PageSpeed Score
-
-        - name: Search Engine Optimization
-          data: Worked very much in SEOs. Got Score of 100 in Lighthouse Audit
-
-        - name: Progressive Web App
-          data: I will try to make web application

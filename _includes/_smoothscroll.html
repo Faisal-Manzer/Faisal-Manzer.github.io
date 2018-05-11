@@ -4,19 +4,21 @@
     var tags = $$("header a:not(.external)");
     for (var i = 0; i < tags.length; i++) {
         tags[i].addEventListener("click", function(e) {
-            e.preventDefault();
-            var name = this.innerHTML.toLowerCase();
-            var offset = parseInt($("#" + name).offsetTop);
-            console.log(offset);
-            window.scrollBy({
-                top: offset,
-                left: 0,
-                behavior: 'smooth'
-            });
-            history.replaceState({
-                offset: offset,
-                name: name
-            }, "", location.pathname + "#" + name);
+            if($("#"+name)) {
+                e.preventDefault();
+                var name = this.innerHTML.toLowerCase();
+                var offset = parseInt($("#" + name).offsetTop);
+                console.log(offset);
+                window.scrollBy({
+                    top: offset,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+                history.replaceState({
+                    offset: offset,
+                    name: name
+                }, "", location.pathname + "#" + name);
+            }
         });
     }
 </script>
