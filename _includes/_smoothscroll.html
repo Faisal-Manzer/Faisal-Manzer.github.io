@@ -4,9 +4,9 @@
     var tags = $$("header a:not(.external)");
     for (var i = 0; i < tags.length; i++) {
         tags[i].addEventListener("click", function(e) {
+          var name = this.innerHTML.toLowerCase();
             if($("#"+name)) {
                 e.preventDefault();
-                var name = this.innerHTML.toLowerCase();
                 var offset = parseInt($("#" + name).offsetTop);
                 console.log(offset);
                 window.scrollBy({
