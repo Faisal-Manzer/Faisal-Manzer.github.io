@@ -4,8 +4,9 @@ title: Faisal Manzer - An Undergraduate Technology Passionate
 description: Need Web Application developer. Contact ME. I love technology, and of course programming stuff. I make small websites and generally interested in web technologies, and now moving ahead in app development. I am eager to learn more stuff.
 ---
 <div class="row" id="skills">
+    {% assign cont=1 %}
     {% for types in site.data.skills %}
-        <div class="col s12 m6 l5 offset-l1">
+        <div class="col s12 m6 l5 {% if cont==1 %}offset-l1{% endif %}">
             <h2 class="font-2">{{types.name}}</h2>
                 {% for skills in types.data %}
                     <h3>-> {{skills.name}}</h3><br />
@@ -17,12 +18,14 @@ description: Need Web Application developer. Contact ME. I love technology, and 
                         {% endfor %}
                 {% endfor %}
         </div>
+        {% assign cont=2 %}
     {% endfor %}
 </div>
 <hr />
 <div class="row" id="projects">
+    {% assign cont=1 %}
     {% for type in site.data.projects %}
-        <div class="col s12 m6 l5 offset-l1">
+        <div class="col s12 m6 l5 {% if cont==1 %}offset-l1{% endif %}">
             <h2>Projects</h2>
             <h3>-> {{type.name}}</h3><br />
             {% for project in type.data %}
@@ -43,6 +46,7 @@ description: Need Web Application developer. Contact ME. I love technology, and 
                 </p><br />
             {% endfor %}
         </div>
+    {% assign cont=2 %}
     {% endfor %}
 </div>
 <hr />
@@ -60,7 +64,7 @@ description: Need Web Application developer. Contact ME. I love technology, and 
         <h4> <i class="fa fa-cap"></i>&nbsp;Intermediate ( C.B.S.E. Delhi ) </h4>
         <p> 2014 - 2016<br/> Firayalal Public School, Ranchi </p><br/>
     </div>
-    <div class="col s12 m6 l5 offset-l1">
+    <div class="col s12 m6 l5">
         <h2>Primary Education</h2> <br/>
         <h4> <i class="fa fa-cap"></i>&nbsp;Matriculation ( C.B.S.E. Delhi ) </h4>
         <p> 2013 - 2014<br/> Firayalal Public School, Ranchi </p><br/>
