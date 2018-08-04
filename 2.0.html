@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Faisal Manzer - An Undergraduate Technology Passionate</title>
+    <link href="https://fonts.googleapis.com/css?family=Tajawal:200,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/master/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <script src="https://rawgit.com/peachananr/purejs-onepage-scroll/master/onepagescroll.min.js"></script>
+    <style>
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        @font-face {
+            font-family: Menlo;
+            src: url("https://rawgit.com/hbin/top-programming-fonts/master/Menlo-Regular.ttf");
+        }
+
+        /* BODY */
+
+        html {
+            margin: 0;
+        }
+
+        body {
+            margin: 0;
+            background-color: #2B2B2B;
+            min-height: 100vh;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: 100%;
+        }
+
+        main {
+            padding-top: 3rem;
+            padding-left: 4rem;
+            padding-bottom: 3rem;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background-color: #202020;
+            margin: 0;
+            text-align: center;
+            font-size: 1.2rem;
+
+            /*position: absolute;*/
+            /*bottom: 0;*/
+            width: 100vw;
+        }
+
+        footer ul {
+            padding: 1rem;
+            font-size: 2rem;
+        }
+
+        footer li {
+            list-style: none;
+            display: inline;
+            padding: 1rem;
+        }
+
+        footer li a {
+            color: #E5C132;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        /* HEADERS */
+        header {
+            background-color: #444;
+            font-size: 2em;
+            color: #E5C132;
+            font-family: 'Tajawal', sans-serif;
+            position: relative;
+            min-height: 30vh;
+            padding: 1rem;
+        }
+
+        .pic {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 2rem;
+        }
+
+        .pic img {
+            width: 280px;
+            height: 280px;
+            border-radius: 20px;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+        }
+
+        /* STYLE */
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .light {
+            font-weight: 200;
+        }
+
+        .code {
+            font-family: Menlo, sans-serif;
+        }
+
+        .tab {
+            padding-left: 2em;
+        }
+
+        .tab-half {
+            padding-left: 1em;
+        }
+
+        .string {
+            color: #70845D;
+        }
+
+        .variable {
+            color: #A9B7C6;
+        }
+
+        .number {
+            color: #7098B7;
+        }
+
+        .class {
+            color: #C27A44;
+        }
+
+        /*
+                DESKTOP
+         */
+
+        @media only screen and (min-width: 992px) {
+
+            header {
+                padding-left: 2rem;
+                min-height: 30vh;
+                display: flex;
+                align-items: flex-end;
+            }
+
+            .pic {
+                position: absolute;
+                top: calc(30vh - 140px);
+                right: 40px;
+            }
+
+        }
+
+        /*
+                TABLET
+         */
+
+        @media only screen and (max-width: 992px) and (min-width: 600px) {
+
+            header {
+                padding-left: 2rem;
+                min-height: 50vh;
+                display: flex;
+                align-items: flex-end;
+            }
+
+            main {
+                padding: 2rem;
+                min-height: 40vh;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        /*
+                MOBILE
+         */
+
+        @media only screen and (max-width: 600px) {
+
+            /* HEADERS */
+            header {
+                font-size: 1.3rem;
+                min-height: 100vh;
+                display: flex;
+                align-items: flex-end;
+            }
+
+            main {
+                padding: 3rem 0.8rem 0.8rem;
+                font-size: 0.9rem;
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+            }
+
+            footer {
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+            }
+
+            footer .links li {
+                display: list-item;
+            }
+
+            footer .social {
+                display: flex;
+                justify-content: center;
+                align-items: stretch;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <header class="section">
+        <div>
+            <div class="pic animated zoomInRight">
+                <img src="faisal-manzer.png" alt="">
+            </div>
+            <div>
+                <h1 class="name">
+                    Faisal<span class="light">Manzer</span>
+                </h1>
+                <div style="color: rgba(229, 193, 50, 0.8)" class="intro animated slideInLeft">
+            <span class="light">
+                <span style="color: rgba(229, 193, 50, 0.4)">&gt&gt&gt</span>
+                An Undergraduate
+            </span>
+                    Technology Passionate.
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="variable code animated fadeIn section">
+        <div>
+            <span class="class">class</span>&nbsp;Faisal<span class="class">:</span><br><br>
+            <span class="string">
+        <i class="tab"></i>""" <br>
+        <i class="tab"></i>Create your Imagination,<br>
+        <i class="tab"></i>They will create you. <br>
+        <i class="tab"></i>""" <br>
+    </span><br>
+            <i class="tab"></i>name = <span class="string">"Faisal Manzer"</span><br>
+            <i class="tab"></i>profession = <span class="string">"WEB Developer"</span><br>
+            <i class="tab"></i>skills = [<span class="string">"Python"</span>, <span class="string">"PHP"</span>]<br>
+            <br>
+            <a><i class="tab"></i>projects = Project<br></a>
+            <a><i class="tab"></i>blog = Blog<br></a>
+            <i class="tab"></i>contact = {<br>
+            <a><i class="tab"></i><i class="tab-half"></i><span class="string">'GitHub'</span>: <span class="string">'Faisal-Manzer'</span></a><br>
+            <a><i class="tab"></i><i class="tab-half"></i><span class="string">'Linkedin'</span>: <span class="string">'Faisal-Manzer'</span></a><br>
+            <a><i class="tab"></i><i class="tab-half"></i><span class="string">'Email'</span>: <span class="string">'faisal_manzer@yahoo.in'</span></a><br>
+            <a><i class="tab"></i><i class="tab-half"></i><span class="string">'WhatsApp'</span>: <span class="number">9097718815</span></a><br>
+            <i class="tab"></i>}<br>
+        </div>
+    </main>
+    <footer class="section">
+        <div>
+            <ul class="links">
+                <li><a href=""><i class="fa fa-arrow-down"></i>&nbsp;DOWNLOAD RESUME</a></li>
+                <li><a href=""><i class="fa fa-pen"></i>&nbsp;BLOGs</a></li>
+                <li><a href=""><i class="fa fa-laptop-code"></i>&nbsp;PROJECTS</a></li>
+            </ul>
+            <ul class="social">
+                <li><a href=""><i class="fab fa-github"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://rawgit.com/lukehaas/Scrollify/master/jquery.scrollify.js"></script>
+<script>
+    $(function () {
+        if ($('body').width() < 992) {
+            $.scrollify({
+                section: '.section',
+                scrollbars: false,
+                touchScroll: true,
+                setHeights: false,
+                updateHash: false
+            })
+        }
+    });
+</script>
+</body>
+</html>
