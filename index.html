@@ -37,10 +37,12 @@ description: Need Web Application developer. Contact ME. I love technology, and 
                         </a>
                     </h4>
                     <p>
-                        {% if project.github %}<a href="https://github.com/Faisal-Manzer/{{project.github}}">
-                            <i class="fab fa-github fa-fw"></i>
-                            {{project.github}}
-                        </a>{% if project.github %}
+                        {% if project.github %}
+                            <a href="https://github.com/Faisal-Manzer/{{project.github}}">
+                                <i class="fab fa-github fa-fw"></i>
+                                {{project.github}}
+                            </a>
+                        {% endif %}
                         <br />
                         {{project.desc}}
                     </p>
