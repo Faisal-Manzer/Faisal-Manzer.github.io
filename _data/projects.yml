@@ -4,14 +4,12 @@
       link:
         title: Download FinFO
         link: https://finfo.xyz/download/
-      github:
       desc: It is a Audio News aggregator. We summerize news in 20-30 sec and give 20 - 25 news which summrises the day.
 
     - name: Campaign ARIA
       link:
         title: Made for Reniso
         link:
-      github:
       desc: This was made for my previous internship. It is marketing campaign managemet and analysis system.
 
     - name: xClean
