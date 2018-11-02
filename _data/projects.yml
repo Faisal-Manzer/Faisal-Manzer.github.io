@@ -1,5 +1,26 @@
 - name: Compeated
   data:
+    - name: FinFO
+      link:
+        title: Download FinFO
+        link: https://finfo.xyz/download/
+      github:
+      desc: It is a Audio News aggregator. We summerize news in 20-30 sec and give 20 - 25 news which summrises the day.
+
+    - name: Campaign ARIA
+      link:
+        title: Made for Reniso
+        link:
+      github:
+      desc: This was made for my previous internship. It is marketing campaign managemet and analysis system.
+
+    - name: xClean
+      link:
+        title: Github Repo - xClean
+        link: https://github.com/Faisal-Manzer/xclean
+      github: xclean
+      desc: This is python tool, which lets you to remove fake Emails in a xlsx file.
+
     - name: FxIT
       link:
         title: Github Repo - FxIT
@@ -36,10 +57,3 @@
         data: https://learn.faisal-manzer.in
       github: LearnVidFM
       desc: This is tutorial site. I aim to teach some of the topics to beginners for a kick start. I realy love W3Schools how it teaches all the things. But it is confined to certain things. I aim to provide many articles and tutorial. This is open for contribute.
-
-    - name: JamiaWorld.in
-      link:
-        title: Jamiaworld's Official Site
-        data: http://jamiaworld.in
-      github: JamiaWorld.in
-      desc: JamiaWorld is a small initiative to connect the gap between students and Jamia Millia Islamia. I am creating a whole new site with PWA functionality. I tested the code did which produced a load time of 3sec which is very fast, and was having a PageSpeed Insights score of 78 I guess which is not very much good but was fairly good.

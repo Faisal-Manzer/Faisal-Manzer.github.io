@@ -8,6 +8,9 @@
       - name: JavaScript
         data: I love playing with it
 
+      - name: Python3
+          data: This My Love.
+
       - name: HTML5
         data: The first step should always be good
 
@@ -16,9 +19,6 @@
 
     - name: Minors
       data:
-        - name: Python3
-          data: Currently in learning phase
-
         - name: Swift
           data: Made 3 iOS apps till now with swift.
 
@@ -35,6 +35,12 @@
   data:
     - name: Optimizations and Technology
       data:
+        - name: Django
+          data: I use django to design backend with python.
+
+        - name: RestAPI
+          data: I design API endpoints in relation with Django.
+
         - name: git
           data: fairly obvious one. I use version control for all projects
 
